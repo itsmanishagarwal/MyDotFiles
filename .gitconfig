@@ -3,9 +3,12 @@
         name = Manish Agarwal
 [alias]
         co = checkout
+        cb = rev-parse --abbrev-ref HEAD
+        br = branch
+        st = status
+        mt = mergetool
         pr = pull --rebase
         cob = checkout -b
         lg = log --color --graph --pretty=format:'%C(bold white)%h%Creset -%C(bold green)%d%Creset %s %C(bold green)(%cr)%Creset %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
         ls = log --oneline
         ld = log --pretty=format:'%Cred%h %Creset%cd %Cblue[%an] %Creset%s%Creset' --date=relative
-        
